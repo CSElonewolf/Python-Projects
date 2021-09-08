@@ -1,0 +1,1 @@
+uvicorn fastapi_server:app
