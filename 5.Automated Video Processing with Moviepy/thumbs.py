@@ -74,4 +74,4 @@ for i, frame in enumerate(clip.iter_frames()):
         current_ms = int((i / fps) * 1000)
         new_img_filepath = os.path.join(thumbnail_per_half_second_dir, f"{current_ms}.jpg")
         new_img = Image.fromarray(frame)
-        new_img.save(new_img_filepath)
+        new_img.save(new_img_filepath) 
