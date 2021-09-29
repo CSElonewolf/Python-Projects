@@ -65,7 +65,7 @@ def parse_and_extract(url,name=f'{datetime.datetime.now()}'):
 url = 'https://www.boxofficemojo.com/year/world/'
 
 # Driver Method
-def run(start_year = None, count=10):
+def run(start_year = None, count=0):
 	# set current year as start_year in case no argument is passed 
 	if start_year == None:
 		now = datetime.datetime.now()
